@@ -49,7 +49,7 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/examapp.png" alt="Ryde App Interface" />
+              <img src="./images/examapp.png" alt="Ryde App Interface" />
             </div>
             <div className="text-content">
               <h2>
@@ -66,7 +66,7 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/avandra.png"
+                  src="./images/avandra.png"
                   alt="Library Management Platform"
                 />
               </div>
@@ -75,7 +75,7 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/coursebank.png" alt="YC Directory App" />
+                <img src="./images/coursebank.png" alt="YC Directory App" />
               </div>
               <h2>An LMS powered by OpenEdx called CourseBank</h2>
             </div>

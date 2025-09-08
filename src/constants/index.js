@@ -14,14 +14,14 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "./images/ideas.svg" },
+  { text: "Concepts", imgPath: "./images/concepts.svg" },
+  { text: "Designs", imgPath: "./images/designs.svg" },
+  { text: "Code", imgPath: "./images/code.svg" },
+  { text: "Ideas", imgPath: "./images/ideas.svg" },
+  { text: "Concepts", imgPath: "./images/concepts.svg" },
+  { text: "Designs", imgPath: "./images/designs.svg" },
+  { text: "Code", imgPath: "./images/code.svg" },
 ];
 
 const counterItems = [
@@ -33,53 +33,53 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "./images/logos/company-logo-1.png",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: "./images/logos/company-logo-2.png",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: "./images/logos/company-logo-3.png",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "./images/logos/company-logo-4.png",
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: "./images/logos/company-logo-5.png",
   },
   {
-    imgPath: "/images/logos/company-logo-6.png",
+    imgPath: "./images/logos/company-logo-6.png",
   },
   {
-    imgPath: "/images/logos/company-logo-7.png",
+    imgPath: "./images/logos/company-logo-7.png",
   },
   {
-    imgPath: "/images/logos/company-logo-8.png",
+    imgPath: "./images/logos/company-logo-8.png",
   },
   {
-    imgPath: "/images/logos/company-logo-9.png",
+    imgPath: "./images/logos/company-logo-9.png",
   },
   {
-    imgPath: "/images/logos/company-logo-10.png",
+    imgPath: "./images/logos/company-logo-10.png",
   },
   {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: "./images/logos/company-logo-11.png",
   },
 ];
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
+    imgPath: "./images/seo.png",
     title: "Quality Focus",
     desc: "Delivering high-quality results while maintaining attention to every detail.",
   },
   {
-    imgPath: "/images/chat.png",
+    imgPath: "./images/chat.png",
     title: "Reliable Communication",
     desc: "Keeping you updated at every step to ensure transparency and clarity.",
   },
   {
-    imgPath: "/images/time.png",
+    imgPath: "./images/time.png",
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
   },
@@ -88,23 +88,23 @@ const abilities = [
 const techStackImgs = [
   {
     name: "Python",
-    imgPath: "/images/logos/logos/python.svg",
+    imgPath: "./images/logos/logos/python.svg",
   },
   {
     name: "React",
-    imgPath: "/images/logos/logos/react.png",
+    imgPath: "./images/logos/logos/react.png",
   },
   {
     name: "Backend",
-    imgPath: "/images/logos/logos/node.png",
+    imgPath: "./images/logos/logos/node.png",
   },
   {
     name: "UI/UX Designer",
-    imgPath: "/images/logos/logos/figma.png",
+    imgPath: "./images/logos/logos/figma.png",
   },
   {
     name: "GIT",
-    imgPath: "/images/logos/logos/git.svg",
+    imgPath: "./images/logos/logos/git.svg",
   },
 ];
 
@@ -144,8 +144,8 @@ const techStackIcons = [
 const expCards = [
   {
     review: "Created Python-based desktop applications using Python, Tkinter for the GUI and MySQL for the database.",
-    imgPath: "/images/tech-sample2.png",
-    logoPath: "/images/python.png",
+    imgPath: "./images/tech-sample2.png",
+    logoPath: "./images/python.png",
     title: "Software Developer",
     date: "December 2024 - May 2025",
     responsibilities: [
@@ -155,8 +155,8 @@ const expCards = [
   },
   {
     review: "Used Python and Django as the primary languages for the development of an Open Edx web platform, utilizing AWS for deployment and static assets management.",
-    imgPath: "/images/tech-sample.png",
-    logoPath: "/images/python.png",
+    imgPath: "./images/tech-sample.png",
+    logoPath: "./images/python.png",
     title: "Full Stack Web Developer",
     date: "September 2021 - November 2024",
     responsibilities: [
@@ -172,15 +172,15 @@ const expCards = [
 const expLogos = [
   {
     name: "logo1",
-    imgPath: "/images/logo1.png",
+    imgPath: "./images/logo1.png",
   },
   {
     name: "logo2",
-    imgPath: "/images/logo2.png",
+    imgPath: "./images/logo2.png",
   },
   {
     name: "logo3",
-    imgPath: "/images/logo3.png",
+    imgPath: "./images/logo3.png",
   },
 ];
 
@@ -188,12 +188,12 @@ const expLogos = [
 const socialImgs = [
   {
     name: "insta",
-    imgPath: "/images/insta.png",
+    imgPath: "./images/insta.png",
     link:"https://www.instagram.com/markallensongco",
   },
   {
     name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    imgPath: "./images/linkedin.png",
     link:"https://www.linkedin.com/in/mark-songco-792764146",
   },
 ];
