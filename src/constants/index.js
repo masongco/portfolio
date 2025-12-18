@@ -99,7 +99,7 @@ const techStackImgs = [
     imgPath: "./images/logos/logos/node.png",
   },
   {
-    name: "UI/UX Designer",
+    name: "UI/UX Design",
     imgPath: "./images/logos/logos/figma.png",
   },
   {
