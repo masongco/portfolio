@@ -6,6 +6,7 @@ import Experience from './sections/Experience.jsx'
 import TechStack from './sections/TechStack.jsx'
 import Footer from './sections/Footer.jsx'
 import Contact from './sections/Contact.jsx'
+import ProjectsGallery from './sections/ProjectsGallery.jsx'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <NavBar />
        <Hero />
        <ShowcaseSection />
+       <ProjectsGallery />
        <FeatureCards />
        <Experience />
        <TechStack />

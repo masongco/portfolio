@@ -26,9 +26,9 @@ const words = [
 
 const counterItems = [
   { value: 3, suffix: "+", label: "Years of Experience" },
-  { value: 7, suffix: "+", label: "Clients Served" },
+  { value: 12, suffix: "", label: "Clients Served" },
   { value: 11, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Project Success Rate" },
+  { value: 99, suffix: "%", label: "Project Success Rate" },
 ];
 
 const logoIconsList = [
@@ -164,7 +164,9 @@ const expCards = [
       "Automated deployment pipelines using Git and cloud-based CI/CD tools, streamlining development and delivery.",
       "Led data export/import processes for 100,000+ users and supported data-driven decisions through workflow optimization.",
       "Designed and integrated UI/UX elements into dynamic web architectures for a seamless user experience.",
-      "Continuously upskilled in technologies like Flutter, Next.js, and DevOps to drive innovation and project success."
+      "Continuously upskilled in technologies like Flutter, Next.js, and DevOps to drive innovation and project success.",
+      "Collaborated with government sectors like Department of Information and Communications Technology (DICT), Department of Science and Technology (DOST)",
+      "Led the development of LAKIP program by the DICT Philippines"
     ],
   },
 ];
@@ -184,6 +186,73 @@ const expLogos = [
   },
 ];
 
+
+const galleryProjects = [
+  {
+    title: "CourseBank",
+    subtitle: "Open Source LMS",
+    description:
+      "A Learning Management System powered by OpenEdx, serving 100,000+ users with course delivery, assessments, and progress tracking.",
+    tags: ["Django", "Python", "OpenEdx", "AWS"],
+    imgPath: "./images/screenshots/coursebank.png",
+  },
+  {
+    title: "ExamApp",
+    subtitle: "PH Civil Service Exam Prep",
+    description:
+      "A web app for Civil Service Exam preparation built with SvelteKit, TailwindCSS, and Vite for a fast, user-friendly experience.",
+    tags: ["SvelteKit", "TailwindCSS", "Vite"],
+    imgPath: "./images/screenshots/exam-app.png",
+  },
+  {
+    title: "SentinelHR",
+    subtitle: "Australian Social Work HR Management",
+    description:
+      "A comprehensive HR management dashboard for tracking employee records, attendance, payroll, and organizational workflows.",
+    tags: ["React", "Typescript", "Supabase", "HR"],
+    imgPath: "./images/screenshots/sentinel-dashboard.png",
+  },
+  {
+    title: "ProCleanNT",
+    subtitle: "Australian Cleaning Service",
+    description:
+      "A website for ProCleanNT, handling quotations and passing inquiries to their current flow on ServiceM8",
+    tags: ["React", "Javascript", "Supabase"],
+    imgPath: "./images/screenshots/pro-clean.png",
+  },
+  {
+    title: "Scholarium",
+    subtitle: "Scholarship Management System",
+    description:
+      "A scholarship management system handling student records, enrollment, grading, and administrative operations.",
+    tags: ["Python", "Django", "MySQL", "Web"],
+    imgPath: "./images/screenshots/scholarium.png",
+  },
+  {
+    title: "LAKIP",
+    subtitle: "Inclusivity Platform",
+    description:
+      "Led the development of the LAKIP program for DICT Philippines — a scalable web platform for localized learning.",
+    tags: ["Django", "Python", "AWS"],
+    imgPath: "./images/screenshots/lakip.png",
+  },
+  {
+    title: "Dapitan Education Portal",
+    subtitle: "E-Learning Platform",
+    description:
+      "An education portal for Dapitan City providing students and educators with digital learning tools and resources.",
+    tags: ["Django", "Python", "Education"],
+    imgPath: "./images/screenshots/dapitan-portal.png",
+  },
+  {
+    title: "Weather App",
+    subtitle: "Real-Time Weather Tracker",
+    description:
+      "A personal Project. A real-time weather tracking application providing current conditions, forecasts, and location-based weather data.",
+    tags: ["API", "JavaScript"],
+    imgPath: "./images/screenshots/weather-app.png",
+  },
+];
 
 const socialImgs = [
   {
@@ -209,4 +278,5 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
+  galleryProjects,
 };
