@@ -210,7 +210,7 @@ const galleryProjects = [
     description:
       "A comprehensive HR management dashboard for tracking employee records, attendance, payroll, and organizational workflows.",
     tags: ["React", "Typescript", "Supabase", "HR"],
-    imgPath: "./images/screenshots/sentinel-dashboard.png",
+    imgPath: "./images/screenshots/sentinel-landing.png",
   },
   {
     title: "ProCleanNT",
